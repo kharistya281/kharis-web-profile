@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
+  "tailwindcss": {
+    "content": [
+      "./index.html",
+      "./src/**/*.{js,ts,jsx,tsx}"
+    ],
+    "theme": {
+      "extend": {}
+    },
+    "plugins": []
+  }
+}
